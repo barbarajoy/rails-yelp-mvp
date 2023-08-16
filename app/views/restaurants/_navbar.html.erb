@@ -1,0 +1,8 @@
+<nav class="navbar navbar-light p-3 border-bottom border-gray" style="background-color: #e3f2fd">
+  <%= link_to restaurants_path, class: "navbar-brand h1" do %>
+    Restaurants
+  <% end %>
+  <ul class="nav navbar-nav navbar-right">
+    <li id="navbar-link"><%= link_to 'New restaurant', new_restaurant_path %></li>
+  </ul>
+</nav>
